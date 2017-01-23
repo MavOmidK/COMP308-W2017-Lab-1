@@ -1,0 +1,25 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "Lab 1 for COMP308. Create an express server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MavOmidK/COMP308-Lab1.git"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "comp308",
+    "lab1"
+  ],
+  "author": "Omid Khataee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MavOmidK/COMP308-Lab1/issues"
+  },
+  "homepage": "https://github.com/MavOmidK/COMP308-Lab1#readme"
+}
