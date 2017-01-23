@@ -13,8 +13,19 @@ const port = 3000;
 app.listen(port);
 console.log(`Server listening at port: ${port}`)
 
-// Hello World Route
+// About page
+app.get('/about', function(req, res){
+    res.send('About')
+})
+
+// Contage page
+app.get('/contact', function(req,res){
+    res.send('Contact')
+})
+
+// Landing Page
 app.get('/', function(req, res){
     res.send('Hello World')
 })
+
 
