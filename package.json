@@ -1,28 +1,32 @@
 {
-  "name": "lab1",
+  "name": "express-server",
   "version": "1.0.0",
-  "description": "Lab 1 for COMP308. Create an express server.",
+  "description": "express server lab 1",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "express": "^4.14.0"
   },
+  "engines": {
+	"node": "7.4.0"
+  }	
+  "devDependencies": {},
+  "scripts": {
+	"test": "make test",
+	"start": "node app.js"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MavOmidK/COMP308-Lab1.git"
   },
   "keywords": [
     "express",
-    "server",
-    "comp308",
+    "heroku",
     "lab1"
   ],
-  "author": "Omid Khataee",
+  "author": "omid-khataee",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MavOmidK/COMP308-Lab1/issues"
   },
-  "homepage": "https://github.com/MavOmidK/COMP308-Lab1#readme",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "homepage": "https://github.com/MavOmidK/COMP308-Lab1#readme"
 }
