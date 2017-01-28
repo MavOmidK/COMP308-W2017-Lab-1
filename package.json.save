@@ -1,0 +1,32 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "express server lab 1",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+"scripts": {
+"test": "make test",
+"start": "node index.js"
+}  "engines": {
+	"node": "7.4.0"
+  }	
+  "devDependencies": {},
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MavOmidK/COMP308-Lab1.git"
+  },
+  "keywords": [
+    "express",
+    "heroku",
+    "lab1"
+  ],
+  "author": "omid-khataee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MavOmidK/COMP308-Lab1/issues"
+  },
+  "homepage": "https://github.com/MavOmidK/COMP308-Lab1#readme"
+}
