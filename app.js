@@ -13,12 +13,13 @@ let app = express()
 let path = __dirname + '/views/'
 
 // set port to 3000
-//const port = 8080;
+const localPort = 8080;
+let port = process.env.PORT || localPort;
+
+app.set('port', port);
 
 // setup the event loop - listens on port 3000
-app.listen(() => {
-    console.log("Server started");
-});
+app.listen(port);
 console.log(`Server listening at port: ${port}`)
 
 // About page
