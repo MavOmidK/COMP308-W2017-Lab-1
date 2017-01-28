@@ -27,7 +27,7 @@ app.get('/about', function(req, res){
  res.sendFile(path + 'about.html')
 })
 
-// Contage page
+// Contact page
 app.get('/contact', function(req,res){
  res.sendFile(path + 'contact.html')
 })
